@@ -16,7 +16,7 @@ How to run Puppet on a clean 14.04 server.
 
   get repo cloned and run the setup script
 
-    git clone git@github.com:InnovationEnterprise/hubs_devops.git
+    git@github.com:berkos/puppet_ubuntu.git
 
     cd hubs_devops
 
