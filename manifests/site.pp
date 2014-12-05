@@ -24,7 +24,9 @@ node "production" {
 
   $rails_env = "production"
   $user = "ubuntu"
+  
   $hostname = "YOURHOSTNAME"
+
 
   $mysql_root_password = 'supersecret_password'
   $mysql_normal_user      = 'normal_user'
