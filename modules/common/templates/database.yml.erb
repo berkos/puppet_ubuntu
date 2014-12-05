@@ -1,0 +1,11 @@
+development: &default
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  pool: 5
+
+<%= @rails_env %>:
+  <<: *default
+  username: <%= @mysql_ieg_user %>
+  password: <%= @mysql_ieg_password %>
+  database: <%= @mysql_database_name %>
