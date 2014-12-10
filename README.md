@@ -2,6 +2,7 @@ puppet_devops ubuntu
 ===========
 
 Puppet Modules
+basic configuration for a UBUNTU environment with ruby on rails, mysql, imagemagick
 
 How to run Puppet on a clean 14.04 server.
 
@@ -18,7 +19,7 @@ How to run Puppet on a clean 14.04 server.
 
     git@github.com:berkos/puppet_ubuntu.git
 
-    cd hubs_devops
+    cd puppet_ubuntu
 
     ./bootstrap.sh
 
